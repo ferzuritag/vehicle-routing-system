@@ -8,22 +8,22 @@ The system architecture can be seen on the next image.
 
 ![aa](/assets/vrs-architecture.png)
 
-### **Auth:**
+### **Auth**
 The purpose of this microservice it to handle all authentication of the project.
 
-**Users**
+### **Users**
 The purpose of this microservice it to manage the collection of users.
 
-**Routing Problems**
+### **Routing Problems**
 The purpose of this microservice it to manage the routing problems of the users.
 
-**VRP**
+### **VRP**
 The purpose of this microservice it to solve the vrp problems.
 
-**CVRP**
+### **CVRP**
 The purpose of this microservice it to solve the cvrp problems.
 
-**MDVRP**
+### **MDVRP**
 The purpose of this microservice it to solve the mdvrp problems.
 
 Each component of the system will be in a docker container, as shown in the diagram, this repository has a docker-compose.yaml file, that will allow you to run the project easily.
